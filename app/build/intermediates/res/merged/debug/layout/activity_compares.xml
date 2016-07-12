@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp">
+
+                <ImageView
+                    android:id="@+id/compares_img"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/worke_img" />
+
+                <RatingBar
+                    android:id="@+id/compares_reting1"
+                    style="@style/score_ratingbar_style1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/compares_text2"
+                    android:layout_below="@+id/compares_text2"
+                    android:layout_marginTop="10dp"
+
+                    android:numStars="5"
+                    android:rating="5" />
+
+                <TextView
+                    android:id="@+id/compares_text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/compares_call"
+                    android:layout_toRightOf="@+id/compares_img"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/compares_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/compares_text2"
+                    android:layout_alignLeft="@+id/compares_text2"
+                    android:layout_marginBottom="10dp"
+                    android:text="张建国"
+                    android:textColor="@color/title_color"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/compares_text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/compares_name"
+                    android:layout_alignBottom="@+id/compares_name"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toLeftOf="@+id/compares_call"
+                    android:layout_toRightOf="@+id/compares_name"
+                    android:text="师傅"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <ImageView
+                    android:id="@+id/compares_call"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/compares_call" />
+
+                <TextView
+                    android:id="@+id/compares_RatingText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/compares_text2"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@+id/compares_reting1"
+                    android:background="@drawable/compare_fillet_text"
+                    android:padding="3dp"
+                    android:text="3.8"
+                    android:textColor="@color/white"
+                    android:textSize="17dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/orderDetails_img_text"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@color/gray"
+                android:gravity="center"
+                android:text="匿名评价"
+                android:textColor="@color/title_color"
+                android:textSize="20dp" />
+
+            <RatingBar
+                android:id="@+id/compares_rating2"
+                style="@style/score_ratingbar_style2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:numStars="5"
+                android:rating="4" />
+
+            <TextView
+                android:id="@+id/compares_rating2_Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/compares_text2"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/compares_reting1"
+                android:padding="3dp"
+                android:text="满意"
+                android:textColor="@color/green"
+                android:textSize="17dp" />
+
+            <LinearLayout
+                android:id="@+id/dissatisfied"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/dissatisfied_behaveBadly"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/selecte_radiobutton"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="态度恶劣"
+                        android:textColor="@drawable/selecte_radiobutton_text" />
+
+                    <CheckBox
+                        android:id="@+id/dissatisfied_goodBad"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/selecte_radiobutton"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="把好的整坏了"
+                        android:textColor="@drawable/selecte_radiobutton_text" />
+
+                    <CheckBox
+                        android:id="@+id/dissatisfied_cookingBad"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/selecte_radiobutton"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="技术太差了"
+                        android:textColor="@drawable/selecte_radiobutton_text" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/dissatisfied_dislike"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/selecte_radiobutton"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="看不顺眼"
+                        android:textColor="@drawable/selecte_radiobutton_text" />
+
+                    <CheckBox
+                        android:id="@+id/dissatisfied_fool"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/selecte_radiobutton"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="纯属糊弄"
+                        android:textColor="@drawable/selecte_radiobutton_text" />
+
+                    <CheckBox
+                        android:id="@+id/dissatisfied_highPrice"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/selecte_radiobutton"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="价格要高了"
+                        android:textColor="@drawable/selecte_radiobutton_text" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/satisfied"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/satisfied_skillful"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/selecte_radiobutton"
+                        android:button="@null"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="手艺高超"
+                        android:textColor="@drawable/selecte_radiobutton_text" />
+
+                    <CheckBox
+                        android:id="@+id/satisfied_high"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/selecte_radiobutton"
+                        android:button="@null"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="速度快质量高"
+                        android:textColor="@drawable/selecte_radiobutton_text" />
+
+                    <CheckBox
+                        android:id="@+id/satisfied_enthusiasticService"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/selecte_radiobutton"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="热情服务"
+                        android:textColor="@drawable/selecte_radiobutton_text" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/satisfied_Zambia"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/selecte_radiobutton"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="赞就一个字"
+                        android:textColor="@drawable/selecte_radiobutton_text" />
+
+                    <CheckBox
+                        android:id="@+id/satisfied_earnest"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/selecte_radiobutton"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="认真细致"
+                        android:textColor="@drawable/selecte_radiobutton_text" />
+
+                    <CheckBox
+                        android:id="@+id/satisfied_mature"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/selecte_radiobutton"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="成熟稳重"
+                        android:textColor="@drawable/selecte_radiobutton_text" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/unclosed_edt"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edt_fillet_bg"
+                android:gravity="left|top"
+                android:hint="您可以输入50个字"
+                android:maxLines="50"
+                android:maxLength="50"
+                android:padding="5dp" />
+
+            <TextView
+                android:id="@+id/unclosed_ok"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/selecte_btn"
+                android:gravity="center"
+                android:text="提交匿名评价"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

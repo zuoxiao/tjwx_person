@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\raw\\login.mp3",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\raw\\login.mp3"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\raw\\order.mp3",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\raw\\order.mp3"
+    }
+]

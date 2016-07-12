@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\progress_1.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-ldpi\\progress_1.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\progress_7.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-ldpi\\progress_7.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\icon.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-ldpi\\icon.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\progress_4.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-ldpi\\progress_4.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\progress_3.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-ldpi\\progress_3.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\progress_6.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-ldpi\\progress_6.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\progress_2.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-ldpi\\progress_2.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\progress_5.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-ldpi\\progress_5.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\progress_8.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-ldpi\\progress_8.png"
+    }
+]

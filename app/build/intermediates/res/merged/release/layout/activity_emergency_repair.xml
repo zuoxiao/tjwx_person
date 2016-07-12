@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/order_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <!--  <TextView
+                         android:layout_width="match_parent"
+                         android:layout_height="45dp"
+                         android:background="@color/gray"
+                         android:gravity="center"
+                         android:text="请选择服务类别"
+                         android:textColor="@color/title_color"
+                         android:textSize="20dp" />
+
+                     <View
+                         android:layout_width="match_parent"
+                         android:layout_height="1px"
+                         android:background="@color/gray_line" />
+
+                     <View
+                         android:layout_width="match_parent"
+                         android:layout_height="1px"
+                         android:layout_marginTop="10dp"
+                         android:background="@color/gray_line" />
+
+                     <TextView
+                         android:layout_width="match_parent"
+                         android:layout_height="45dp"
+                         android:background="@color/gray"
+                         android:gravity="center"
+                         android:text="维修地点"
+                         android:textColor="@color/title_color"
+                         android:textSize="20dp" />
+
+                     <View
+                         android:layout_width="match_parent"
+                         android:layout_height="1px"
+                         android:background="@color/gray_line" />
+
+                     <RelativeLayout
+                         android:id="@+id/repair_gpsAddress"
+                         android:layout_width="match_parent"
+                         android:layout_height="45dp"
+                         android:layout_marginLeft="10dp"
+                         android:layout_marginRight="10dp"
+                         android:layout_marginTop="10dp"
+                         android:background="@drawable/rl_fillet_bg" >
+
+                         <TextView
+                             android:id="@+id/repair_gpsAddress_text"
+                             android:layout_width="match_parent"
+                             android:layout_height="45dp"
+                             android:layout_toLeftOf="@+id/imageView1"
+                             android:gravity="center_vertical"
+                             android:paddingLeft="15dp"
+                             android:singleLine="true"
+                             android:textSize="17dp" />
+
+                         <ImageView
+                             android:id="@+id/imageView1"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:layout_alignParentRight="true"
+                             android:layout_centerVertical="true"
+                             android:layout_marginRight="10dp"
+                             android:src="@drawable/repair_earth" />
+                     </RelativeLayout>
+
+                     <EditText
+                         android:id="@+id/emergency_comment"
+                         android:layout_width="match_parent"
+                         android:layout_height="45dp"
+                         android:layout_marginLeft="10dp"
+                         android:layout_marginRight="10dp"
+                         android:layout_marginTop="10dp"
+                         android:background="@drawable/ll_fillet_bg"
+                         android:maxLength="20"
+                         android:paddingLeft="15dp"
+                         android:singleLine="true"
+                         android:textSize="17dp" />
+
+                     <RelativeLayout
+                         android:layout_width="match_parent"
+                         android:layout_height="90dp"
+                         android:gravity="center_vertical"
+                         android:orientation="horizontal" >
+
+                         <TextView
+                             android:id="@+id/text4"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:layout_centerVertical="true"
+                             android:layout_marginLeft="10dp"
+                             android:layout_toLeftOf="@+id/voice_btn"
+                             android:text="按住按钮添加语音说明，最多一条"
+                             android:textColor="@color/sub_textColor"
+                             android:textSize="17dp" />
+
+                         <TextView
+                             android:id="@+id/voice_btn"
+                             android:layout_width="wrap_content"
+                             android:layout_height="45dp"
+                             android:layout_alignParentRight="true"
+                             android:layout_centerVertical="true"
+                             android:layout_marginRight="10dp"
+                             android:background="@drawable/selecte_order_btn"
+                             android:drawableLeft="@drawable/voice_icon"
+                             android:gravity="center_vertical"
+                             android:paddingLeft="10dp"
+                             android:paddingRight="10dp"
+                             android:layout_marginLeft="10dp"
+                             android:text=" 按住录音"
+                             android:textColor="@color/title_color" />
+                     </RelativeLayout>
+  --><TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="您是否紧急维修？"
+                    android:textSize="17dp" />
+
+
+                    <ListView
+                        android:id="@+id/repair_type"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:divider="@null"
+                        android:fadingEdge="none"
+                        android:listSelector="@color/white"
+                        android:orientation="vertical" />
+
+
+                    <TextView
+                        android:id="@+id/repair_pulish"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="30dp"
+                        android:background="@drawable/selecte_btn"
+                        android:gravity="center"
+                        android:text="是"
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/repair_cancel"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="30dp"
+                        android:background="@drawable/selecte_text"
+                        android:gravity="center"
+                        android:text="否"
+                        android:textColor="@color/title_color"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:id="@+id/text4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/ll1"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center_horizontal"
+                        android:text="如果您家中出现严重的跑、冒、滴、漏等情况"
+                        android:textColor="@color/red"
+                        android:textSize="17dp" />
+                    <TextView
+                        android:id="@+id/text1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/ll1"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_horizontal"
+                        android:text="提交后我们将优先处理您的紧急需求！"
+                        android:textColor="@color/red"
+                        android:textSize="17dp" />
+
+                    <LinearLayout
+                        android:id="@+id/ll1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_horizontal">
+
+                        <TextView
+                            android:id="@+id/text3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/callPhone"
+                            android:layout_alignBottom="@+id/callPhone"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="20dp"
+                            android:text="请您保持电话通讯畅通"
+                            android:textColor="@color/red"
+                            android:textSize="20dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <include
+                    android:id="@+id/rcChat_popup"
+                    layout="@layout/voice_rcd_hint_window"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:visibility="gone" />
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

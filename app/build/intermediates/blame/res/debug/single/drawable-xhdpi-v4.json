@@ -1,0 +1,522 @@
+[
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_cab_done_holo_dark.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_ic_cab_done_holo_dark.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_tencentweibo.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_tencentweibo.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ab_bottom_solid_dark_holo.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_ab_bottom_solid_dark_holo.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ab_stacked_transparent_dark_holo.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_ab_stacked_transparent_dark_holo.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_kakaotalk.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_kakaotalk.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ab_share_pack_holo_light.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_ab_share_pack_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_clear_search_api_disabled_holo_light.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_ic_clear_search_api_disabled_holo_light.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_evernote.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_evernote.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_kaixin.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_kaixin.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_setup_voice_no.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\icon_setup_voice_no.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\amp3.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\amp3.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_voice_search_api_holo_light.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_ic_voice_search_api_holo_light.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_clear_search_api_holo_light.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_ic_clear_search_api_holo_light.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_pinterest.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_pinterest.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_yixinmoments.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_yixinmoments.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_clear_disabled.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_ic_clear_disabled.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_whatsapp.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_whatsapp.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\amp4.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\amp4.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_ab_back_holo_light.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_ic_ab_back_holo_light.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_search.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_ic_search.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_holo_light.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_menu_hardkey_panel_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_clear_normal.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_ic_clear_normal.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_douban.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_douban.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_list_empty.jpg",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\icon_list_empty.jpg"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_facebook.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_facebook.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_go.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_ic_go.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_voice_search.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_ic_voice_search.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_search_right_default_holo_dark.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_textfield_search_right_default_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_cab_background_top_holo_dark.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_cab_background_top_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_auth_title_back.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_auth_title_back.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_search_right_selected_holo_dark.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_textfield_search_right_selected_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_foursquare.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_foursquare.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_line.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_line.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_commit_search_api_holo_light.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_ic_commit_search_api_holo_light.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_shortmessage.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_shortmessage.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_search_right_default_holo_light.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_textfield_search_right_default_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ab_bottom_transparent_dark_holo.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_ab_bottom_transparent_dark_holo.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_instapaper.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_instapaper.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ab_solid_dark_holo.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_ab_solid_dark_holo.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_bluetooth.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_bluetooth.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_email.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_email.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_instagram.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_instagram.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_renren.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_renren.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_holo_dark.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_menu_hardkey_panel_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_divider_holo_light.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_list_divider_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_check_checked.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_check_checked.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_tumblr.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_tumblr.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_back_arr.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_back_arr.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\amp1.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\amp1.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_alipay.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_alipay.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_linkedin.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_linkedin.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_laiwang.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_laiwang.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\edt_wit_bacgrond.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\edt_wit_bacgrond.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_moreoverflow_normal_holo_light.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_ic_menu_moreoverflow_normal_holo_light.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_tab_selected_pressed_holo.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_tab_selected_pressed_holo.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\appt_su_line.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\appt_su_line.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_yixin.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_yixin.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_googleplus.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_googleplus.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_moreoverflow_normal_holo_dark.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_ic_menu_moreoverflow_normal_holo_dark.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_share_holo_light.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_ic_menu_share_holo_light.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ab_share_pack_holo_dark.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_ab_share_pack_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_ab_back_holo_dark.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_ic_ab_back_holo_dark.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_commit_search_api_holo_dark.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_ic_commit_search_api_holo_dark.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_menu_dropdown_panel_holo_light.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_menu_dropdown_panel_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_wechat.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_wechat.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_facebookmessenger.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_facebookmessenger.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_share_holo_dark.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_ic_menu_share_holo_dark.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_tab_unselected_pressed_holo.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_tab_unselected_pressed_holo.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_logo.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_logo.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_twitter.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_twitter.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ab_transparent_dark_holo.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_ab_transparent_dark_holo.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_kakaostory.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_kakaostory.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_search_selected_holo_dark.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_textfield_search_selected_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_spinner_ab_focused_holo_light.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_spinner_ab_focused_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_all_n.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\btn_all_n.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ab_stacked_solid_light_holo.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_ab_stacked_solid_light_holo.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_search_default_holo_light.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_textfield_search_default_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_cab_background_bottom_holo_dark.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_cab_background_bottom_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\icon.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_flickr.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_flickr.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_spinner_ab_focused_holo_dark.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_spinner_ab_focused_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_wechatmoments.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_wechatmoments.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_go_search_api_holo_light.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_ic_go_search_api_holo_light.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_divider_holo_dark.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_list_divider_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_vkontakte.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_vkontakte.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_qq.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_qq.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_tab_selected_focused_holo.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_tab_selected_focused_holo.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_search_api_holo_light.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_ic_search_api_holo_light.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\amp6.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\amp6.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_laiwangmoments.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_laiwangmoments.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_mingdao.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_mingdao.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_cab_background_top_holo_light.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_cab_background_top_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_pocket.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_pocket.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_spinner_ab_disabled_holo_dark.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_spinner_ab_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_menu_dropdown_panel_holo_dark.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_menu_dropdown_panel_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ab_stacked_solid_dark_holo.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_ab_stacked_solid_dark_holo.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_search_selected_holo_light.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_textfield_search_selected_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_check_default.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_check_default.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\amp5.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\amp5.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_wechatfavorite.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_wechatfavorite.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_spinner_ab_pressed_holo_dark.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_spinner_ab_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_youdao.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_youdao.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_cab_done_holo_light.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_ic_cab_done_holo_light.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_search_right_selected_holo_light.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_textfield_search_right_selected_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_tab_selected_holo.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_tab_selected_holo.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_spinner_ab_disabled_holo_light.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_spinner_ab_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_all_y.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\btn_all_y.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_title_div.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_title_div.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_dropbox.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_dropbox.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ab_stacked_transparent_light_holo.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_ab_stacked_transparent_light_holo.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_spinner_ab_default_holo_light.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_spinner_ab_default_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_spinner_ab_default_holo_dark.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_spinner_ab_default_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_sinaweibo.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_sinaweibo.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ab_bottom_transparent_light_holo.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_ab_bottom_transparent_light_holo.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_search_default_holo_dark.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_textfield_search_default_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\amp2.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\amp2.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_cab_background_bottom_holo_light.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_cab_background_bottom_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_qzone.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_qzone.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ab_solid_light_holo.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_ab_solid_light_holo.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ab_bottom_solid_light_holo.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_ab_bottom_solid_light_holo.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_setup_voice_off.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\icon_setup_voice_off.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_spinner_ab_pressed_holo_light.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_spinner_ab_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ab_transparent_light_holo.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_ab_transparent_light_holo.9.png"
+    }
+]

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/order_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/orderDetails_img_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:background="@color/gray"
+                        android:gravity="center"
+                        android:text="物品照片（0/3）"
+                        android:textColor="@color/title_color"
+                        android:textSize="20dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/gray_line" />
+
+                    <GridView
+                        android:id="@+id/orderDetails_gridView"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:horizontalSpacing="10dp"
+                        android:listSelector="@color/white"
+                        android:numColumns="3"
+                        android:scrollbars="none"
+                        android:stretchMode="columnWidth"
+                        android:verticalSpacing="10dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/gray_line" />
+
+                    <TextView
+                        android:id="@+id/orderDetails_text_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:background="@color/gray"
+                        android:gravity="center"
+                        android:text="文字描述（0/50）"
+                        android:textColor="@color/title_color"
+                        android:textSize="20dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:background="@color/gray_line" />
+
+                    <EditText
+                        android:id="@+id/orderDetails_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/edt_fillet_bg"
+                        android:gravity="top|left"
+                        android:hint="您还可以输入50个字"
+                        android:maxEms="50"
+                        android:maxLength="50"
+                        android:padding="5dp"
+                        android:textColorHint="@color/included_color" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/gray_line" />
+
+                    <TextView
+                        android:id="@+id/orderDetails_voice_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:background="@color/gray"
+                        android:gravity="center"
+                        android:text="语音说明（0/1）"
+                        android:textColor="@color/title_color"
+                        android:textSize="20dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:background="@color/gray_line" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="20dp">
+
+                        <ImageView
+                            android:id="@+id/voice_img"
+                            android:layout_width="wrap_content"
+                            android:layout_height="45dp"
+                            android:src="@drawable/voice_big"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/voice_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="45dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_toLeftOf="@+id/voice_btn"
+                            android:layout_toRightOf="@+id/voice_img"
+                            android:gravity="center_vertical"
+                            android:paddingBottom="3dp"
+                            android:text="0&apos;&apos;"
+                            android:textColor="@color/sub_textColor"
+                            android:textSize="17dp"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/order_voice_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="45dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_below="@+id/voice_img"
+                            android:layout_toLeftOf="@+id/voice_btn"
+                            android:gravity="center"
+android:textSize="17dp"
+                            android:textColor="@color/sub_textColor"
+                            android:text="可以添加一条语音信息" />
+
+                        <TextView
+                            android:id="@+id/voice_btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="45dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@drawable/selecte_order_btn"
+                            android:drawableLeft="@drawable/voice_icon"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:text=" 按住录音"
+                            android:textColor="@color/title_color" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/orderDetail_ok"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/selecte_btn"
+                        android:gravity="center"
+                        android:text="确定"
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+                </LinearLayout>
+
+                <include
+                    android:id="@+id/rcChat_popup"
+                    layout="@layout/voice_rcd_hint_window"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:visibility="gone" />
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

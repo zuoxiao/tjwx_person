@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="baseBG">#D1DDE1</color>
+
+    <!-- 红色 -->
+    <color name="red">#d90000</color>
+
+    <!-- 黑色 -->
+    <color name="black">#000000</color>
+    <!-- 白色 -->
+    <color name="white">#FFFFFF</color>
+    <!-- 浅蓝色 -->
+    <color name="title_color">#3bafda</color>
+    <!-- 蓝色 -->
+    <color name="blue1">#3299CC</color>
+    <!-- 首页字体颜色 -->
+    <color name="mainText_color">#000000</color>
+
+    <!--绿色-->
+    <color name="green">#32CD32</color>
+
+    <!-- 用户页分割线 -->
+    <color name="line_color">#E5E5E5</color>
+    <!-- 灰色 -->
+    <color name="gray">#f6f9f9</color>
+    <!-- 灰色线条 -->
+    <color name="gray_line">#eaeaeb</color>
+    <!-- 深色灰色背景 -->
+    <color name="gray_bg">#eeeeee</color>
+
+    <!-- 次要字体颜色 -->
+    <color name="sub_textColor">#999999</color>
+
+    <!-- 附加说明字体颜色 -->
+    <color name="included_color">#bdbdbd</color>
+    <!-- 按钮背景蓝色 -->
+    <color name="btn_bg_blue">#4fc2e9</color>
+    <color name="btn_bg_gray">#999999</color>
+    <!-- 橘色 -->
+    <color name="green1">#f77300</color>
+
+    <!-- 按钮橘色 -->
+    <color name="btn_green">#f6bb43</color>
+
+    <!--我的页面橘色-->
+    <color name="person_green">#f87a06</color>
+</resources>

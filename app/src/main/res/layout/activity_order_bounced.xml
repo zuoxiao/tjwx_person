@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    >
+
+    <TextView
+        android:id="@+id/bounced_dingdanhao"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="16sp"
+
+        />
+
+    <TextView
+        android:id="@+id/bounced_time"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="16sp"
+
+        />
+
+    <TextView
+        android:id="@+id/bounced_detail"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="16sp"
+
+        />
+
+    <TextView
+        android:id="@+id/bounced_bouncedDetail"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="16sp"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/disSuccess_message"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="14dp"
+            android:background="@drawable/ll_fillet_bg"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="留言"
+            android:textSize="17dp"
+            android:textColor="@color/title_color" />
+
+        <TextView
+            android:id="@+id/disSuccess_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="16dp"
+            android:layout_toLeftOf="@+id/disSuccess_message"
+            android:background="@drawable/ll_fillet_bg"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="电话"
+            android:textSize="17dp"
+            android:textColor="@color/title_color" />
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal|bottom" >
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal"
+            android:text="中房物业管理有限公司"
+            android:textColor="@color/sub_textColor"
+            android:textSize="16dp" />
+
+        <LinearLayout
+            android:id="@+id/ll1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/text1"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/callPhone"
+                android:layout_alignBottom="@+id/callPhone"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="20dp"
+                android:text="24小时服务电话："
+                android:textColor="@color/sub_textColor"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/callPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="14dp"
+                android:layout_toRightOf="@+id/text2"
+                android:text="4000077200"
+                android:textColor="@color/title_color"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

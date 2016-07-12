@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="支付金额：¥"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/pay_choice_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="150"
+            android:textSize="27dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="元"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/gray"
+        android:gravity="center"
+        android:text="支付方式"
+        android:textColor="@color/btn_bg_blue"
+        android:textSize="18dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/pay_choice_zfb"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/pay_choice_false" >
+
+            <ImageView
+                android:id="@+id/zf_zfb"
+                android:layout_width="90dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/zf_zfb" />
+
+            <TextView
+                android:id="@+id/zf_text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/zf_zfb"
+                android:layout_centerHorizontal="true"
+                android:text="不支持信用卡支付" />
+
+            <ImageView
+                android:id="@+id/pay_zfb_img"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:visibility="gone"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/zf_xz" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/pay_choice_wx"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/pay_choice_false" >
+
+            <ImageView
+                android:id="@+id/zf_wx"
+                android:layout_width="90dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/zf_wx" />
+
+            <TextView
+                android:id="@+id/zf_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/zf_wx"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0dp"
+                android:text="打开微信钱包支付" />
+
+            <ImageView
+                android:id="@+id/pay_wx_img"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:visibility="gone"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/zf_xz" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/pay_choice_btn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/selecte_btn"
+        android:gravity="center"
+        android:text="立即支付"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal" >
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal" >
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/callPhone"
+            android:layout_alignBottom="@+id/callPhone"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:text="24小时服务电话："
+            android:textColor="@color/sub_textColor"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/callPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="14dp"
+            android:layout_toRightOf="@+id/text2"
+            android:text="4000077200"
+            android:textColor="@color/title_color"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ll1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:text="中房物业管理有限公司"
+        android:textColor="@color/sub_textColor"
+        android:textSize="16dp" />
+</RelativeLayout>
+
+</LinearLayout>

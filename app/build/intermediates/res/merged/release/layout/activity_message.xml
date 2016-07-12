@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+  
+    android:orientation="vertical" >
+
+    <com.example.tjwx_person.tool.listView.XListView
+        android:id="@+id/message_listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/message_edt"
+        android:divider="@null"
+        android:dividerHeight="10dp"
+        android:padding="10dp"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/message_pulish"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/selecte_btn"
+        android:gravity="center"
+        android:text="发送"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/message_edt"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_above="@+id/message_pulish"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:maxLines="100"
+        android:gravity="top"
+        android:maxLength="100"
+        android:padding="10dp"
+        android:background="@drawable/edt_fillet_bg"
+        android:layout_marginRight="10dp"
+        android:hint="您还可以输入100个字"
+        />
+
+        
+  
+
+</RelativeLayout>

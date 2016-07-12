@@ -1,0 +1,43 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 评分ratingbar 的样式 -->
+    <style name="score_ratingbar_style1" parent="@android:attr/ratingBarStyleSmall">
+        <item name="android:progressDrawable">@drawable/progressbar_layer1</item>
+        <item name="android:maxHeight">30dp</item>
+        <item name="android:minHeight">30dp</item>
+
+    </style>
+
+    <style name="score_ratingbar_style2" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/progressbar_layer2</item>
+        <item name="android:maxHeight">100dp</item>
+        <item name="android:minHeight">65dp</item>
+
+    </style>
+    <!-- 设置通信等待动画 -->
+    <style name="CustomProgressDialog" parent="@style/CustomDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+   <style name="CustomDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    </style>
+
+    <!-- 自定dialog样式 -->
+    <style name="FullHeightDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="popwin_anim_style">
+        <item name="android:windowEnterAnimation">@anim/popup_in</item>
+        <item name="android:windowExitAnimation">@anim/popup_out</item>
+    </style>
+</resources>

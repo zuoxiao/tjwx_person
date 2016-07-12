@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:su="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/city_background"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="1dp"
+        android:background="#f6f6f6"
+        android:orientation="horizontal">
+
+        <com.example.tjwx_person.tool.ScrollerNumberPicker
+            android:id="@+id/type"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            su:itemNumber="5"
+            su:lineColor="#ffc6c6c6"
+            su:maskHight="32dp"
+            su:noEmpty="true"
+            su:normalTextColor="#777"
+            su:normalTextSize="14sp"
+            su:selecredTextColor="#ff000000"
+            su:selecredTextSize="22sp"
+            su:unitHight="40dp" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/linearLayout1"
+        android:layout_alignParentLeft="true"
+        android:background="#f6f6f6">
+
+        <TextView
+            android:id="@+id/wancheng"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="right"
+            android:paddingRight="20dp"
+            android:text="完成"
+            android:textSize="20dp" />
+
+        <!--
+             <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+
+            android:background="@drawable/line" />
+        -->
+    </RelativeLayout>
+
+</RelativeLayout>

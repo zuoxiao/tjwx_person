@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="
+中房物业管理有限公司，系中央企业中国房地产开发集团公司旗下的专业化物业管理企业。
+
+2002年7月在国家工商局注册，物业服务企业二级资质，北京市物业管理协会会员单位，已通过ISO9001质量管理体系、ISO14001环境管理体系、OHSAS18001职业健康安全管理体系认证。
+
+公司物业管理项目包括写字楼、高档住宅、普通住宅、经济适用房以酒店等多种类型的物业。
+
+2016年投资旗下中房我来修修（北京）物业管理有限公司，并开发“我来修修”APP。
+"
+android:layout_margin="20dp"
+        />
+
+</LinearLayout>

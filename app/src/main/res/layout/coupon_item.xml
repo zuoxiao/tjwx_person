@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/coupon_bg" >
+
+        <View
+            android:id="@+id/top_line"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/title_color" />
+
+        <TextView
+            android:id="@+id/bottom_time"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/title_color"
+            android:gravity="center"
+            android:text="有限期至"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/symbol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/bottom_time"
+            android:layout_alignLeft="@+id/bottom_time"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="20dp"
+            android:text="¥"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/coupon_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/bottom_time"
+            android:layout_below="@+id/top_line"
+            android:layout_marginLeft="27dp"
+            android:layout_toRightOf="@+id/symbol"
+            android:gravity="center"
+            android:text="40"
+            android:textColor="@color/green"
+            android:textSize="70px" />
+
+        <TextView
+            android:id="@+id/coupon_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/coupon_money"
+            android:layout_alignRight="@+id/top_line"
+            android:layout_alignTop="@+id/coupon_money"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/coupon_money"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="元优惠券\n满100元使用"
+            android:textSize="30px" />
+
+    </RelativeLayout>
+
+</LinearLayout>

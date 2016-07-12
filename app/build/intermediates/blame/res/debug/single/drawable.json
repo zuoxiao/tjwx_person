@@ -1,0 +1,234 @@
+[
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_bg2_1.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable\\btn_bg2_1.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\setting_down_pressed.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable\\setting_down_pressed.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_holo_light.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable\\abc_ic_clear_holo_light.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\setting_down_selector.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable\\setting_down_selector.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\setting_up_nor.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable\\setting_up_nor.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selecte_btn_green.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable\\selecte_btn_green.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_holo_dark.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable\\abc_textfield_searchview_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_search_dropdown_dark.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable\\abc_search_dropdown_dark.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selecte_checbox.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable\\selecte_checbox.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selecte_text.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable\\selecte_text.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ll_fillet_bg.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable\\ll_fillet_bg.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selecte_order_btn.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable\\selecte_order_btn.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\message_line_bg.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable\\message_line_bg.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\setting_one_pressed.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable\\setting_one_pressed.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ssdk_oks_classic_progressbar.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable\\ssdk_oks_classic_progressbar.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pay_choice_true.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable\\pay_choice_true.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\setting_down_nor.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable\\setting_down_nor.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rl_fillet_bg.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable\\rl_fillet_bg.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\radiobutton_2.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable\\radiobutton_2.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\person_btn_bg.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable\\person_btn_bg.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\setting_one_selector.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable\\setting_one_selector.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selecte_voice.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable\\selecte_voice.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable\\abc_ic_clear.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_map_success.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable\\bg_map_success.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selecte_radiobutton.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable\\selecte_radiobutton.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selecte_radiobutton_text.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable\\selecte_radiobutton_text.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_bg_2.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable\\btn_bg_2.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ssdk_oks_classic_platform_cell_back.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable\\ssdk_oks_classic_platform_cell_back.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\setting_up_pressed.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable\\setting_up_pressed.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pay_choice_false.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable\\pay_choice_false.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\text_fillet_bg.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable\\text_fillet_bg.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\compare_fillet_text.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable\\compare_fillet_text.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\setting_up_selector.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable\\setting_up_selector.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ll_share_bg1.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable\\ll_share_bg1.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\text_fillet_deep_bg.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable\\text_fillet_deep_bg.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\my_progress_indeterminate.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable\\my_progress_indeterminate.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progressbar_layer1.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable\\progressbar_layer1.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_sel_all.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable\\btn_sel_all.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selecte_btn.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable\\selecte_btn.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\setting_one_nor.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable\\setting_one_nor.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_ab_holo_light.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable\\abc_spinner_ab_holo_light.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progressbar_layer2.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable\\progressbar_layer2.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_ab_holo.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable\\abc_tab_indicator_ab_holo.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\radiobutton_1.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable\\radiobutton_1.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_search_dropdown_light.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable\\abc_search_dropdown_light.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edt_fillet_bg.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable\\edt_fillet_bg.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_holo_light.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable\\abc_textfield_searchview_holo_light.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_bg2_2.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable\\btn_bg2_2.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_right_holo_dark.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable\\abc_textfield_searchview_right_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_ab_holo_dark.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable\\abc_spinner_ab_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_bg_1.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable\\btn_bg_1.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_right_holo_light.xml",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable\\abc_textfield_searchview_right_holo_light.xml"
+    }
+]

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/unclosed_longtime"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/selecte_radiobutton"
+                android:button="@null"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="等待时间太长"
+                android:textColor="@drawable/selecte_radiobutton_text"
+                android:checked="false" />
+
+            <CheckBox
+                android:id="@+id/unclosed_goOut"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/selecte_radiobutton"
+                android:button="@null"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="要外出"
+                android:textColor="@drawable/selecte_radiobutton_text"
+                android:checked="false" />
+
+            <CheckBox
+                android:id="@+id/unclosed_myown"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/selecte_radiobutton"
+                android:button="@null"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="自己修好了"
+                android:textColor="@drawable/selecte_radiobutton_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/unclosed_planChange"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/selecte_radiobutton"
+                android:button="@null"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="计划改变了"
+                android:textColor="@drawable/selecte_radiobutton_text" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/unclosed_edt"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="您可以输入50个字"
+        android:maxLines="50"
+                android:maxLength="50"
+        android:gravity="left|top"
+        android:padding="5dp"
+        android:background="@drawable/edt_fillet_bg" />
+
+    <TextView
+        android:id="@+id/unclosed_ok"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/selecte_btn"
+        android:gravity="center"
+        android:text="提交"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+</LinearLayout>
