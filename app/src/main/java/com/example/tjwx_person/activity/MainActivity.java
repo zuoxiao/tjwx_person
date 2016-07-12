@@ -128,7 +128,7 @@ public class MainActivity extends BaseActivity implements OnClickListener {
 
             float currentVersion = Float.valueOf(info.versionName);
             SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
-            int lastVersion = prefs.getInt("VERSION_KEY", 0);
+            float lastVersion = prefs.getFloat("VERSION_KEY", 0);
             if (currentVersion > lastVersion) {
                 //如果当前版本大于上次版本，该版本属于第一次启动
                 userAction.setStatistic(mContext, new AsyncHandler() {
@@ -159,7 +159,7 @@ public class MainActivity extends BaseActivity implements OnClickListener {
                     });
                 }
             }
-        } catch (PackageManager.NameNotFoundException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
         //注册广播
