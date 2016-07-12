@@ -1,6 +1,9 @@
 package com.example.tjwx_person.action;
 
 import android.content.Context;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
+import android.telephony.TelephonyManager;
 
 import com.example.tjwx_person.bean.AddressData;
 import com.example.tjwx_person.bean.CouponData;
@@ -19,6 +22,7 @@ import com.example.tjwx_person.bean.skillData;
 import com.example.tjwx_person.http.AsyncHandler;
 import com.example.tjwx_person.http.HttpService;
 import com.example.tjwx_person.http.URLConstant;
+import com.example.tjwx_person.utils.UserData;
 import com.google.gson.reflect.TypeToken;
 import com.loopj.android.http.FileRequestParams;
 import com.loopj.android.http.RequestParams;
@@ -642,6 +646,64 @@ public class UserAction {
         String key = TAG + URLConstant.PersonData;
         HttpService.getData4Post(context, URLConstant.PersonData, true, key,
                 str, params, handle, PersenData.class);
+    }
+
+    /**
+     * 安装量统计
+     *
+     * @param context
+     */
+    public void setStatistic(Context context, AsyncHandler handle) {
+        params = new RequestParams();
+        TelephonyManager tm = (TelephonyManager) context.getSystemService(Context.TELEPHONY_SERVICE);
+        String deviceId = tm.getDeviceId();
+        params.put("deviceId", deviceId);
+        params.put("registerType", "MAINTENANCE");
+        params.put("clientType", "ANDROID");
+        String version = getVersion(context);
+        params.put("version", version);
+        String str = "data";// 需要解析的实体对象在json字符串中的属性名称
+        // key 的组成部分按照 tag + 平台接口方法名称 来
+        String key = TAG + URLConstant.statistic;
+        HttpService.getData4Post(context, URLConstant.statistic, true, key,
+                str, params, handle, PersenData.class);
+    }
+    /**
+     * 安装量统计
+     *
+     * @param context
+     */
+    public void setStatisticUpdate(Context context, AsyncHandler handle) {
+        params = new RequestParams();
+        TelephonyManager tm = (TelephonyManager) context.getSystemService(Context.TELEPHONY_SERVICE);
+        String deviceId = tm.getDeviceId();
+        params.put("deviceId", deviceId);
+        params.put("mobilePhone", UserData.getSettingString(context,UserData.user_phone));
+        String version = getVersion(context);
+        params.put("version", version);
+        String str = "data";// 需要解析的实体对象在json字符串中的属性名称
+        // key 的组成部分按照 tag + 平台接口方法名称 来
+        String key = TAG + URLConstant.statistic;
+        HttpService.getData4Post(context, URLConstant.statistic, true, key,
+                str, params, handle, PersenData.class);
+    }
+
+
+    /**
+     * 2  * 获取版本号
+     * 3  * @return 当前应用的版本号
+     * 4
+     */
+    public String getVersion(Context context) {
+        try {
+            PackageManager manager = context.getPackageManager();
+            PackageInfo info = manager.getPackageInfo(context.getPackageName(), 0);
+            String version = info.versionName;
+            return version;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return "";
+        }
     }
 
 }

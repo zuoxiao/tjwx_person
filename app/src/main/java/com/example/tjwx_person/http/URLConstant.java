@@ -93,9 +93,11 @@ public class URLConstant {
     //获取消息
     public static final String getNotice = FULLURL + "/notification/info";
     //设置静音
-    public static final String changesinlence=FULLURL + "/user/changeSinlence";
+    public static final String changesinlence = FULLURL + "/user/changeSinlence";
     //获取用户信息
-    public static final String PersonData=FULLURL + "/user/info";
+    public static final String PersonData = FULLURL + "/user/info";
+    //用于用户统计
+    public static final String statistic = FULLURL + "/statistic/add";
 
     /**
      * // 网络请求返回数据为空

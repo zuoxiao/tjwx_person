@@ -367,14 +367,14 @@ public class OrderDetailActivity extends BaseActivity {
 
                         String uuid2 = UUID.randomUUID().toString().replace("-", "");
                         //  path = photoSavePath + photoSaveName;
-                        if (photoSavePath!=null&&!"".equals(photoSavePath)){
+                        if (photoSavePath != null && !"".equals(photoSavePath)) {
                             photoSavePath = Environment.getExternalStorageDirectory() + "/" + "WX" + "/";
                         }
                         File myCaptureFile = new File(photoSavePath + uuid2
                                 + ".jpg");
 
                         try {
-                            if (myCaptureFile!=null&&!myCaptureFile.exists()) {
+                            if (myCaptureFile != null && !myCaptureFile.exists()) {
 
                                 File folderPath = new File(photoSavePath);
                                 if (!folderPath.exists()) {
@@ -460,6 +460,14 @@ public class OrderDetailActivity extends BaseActivity {
                 .getAuthority());
     }
 
+    public static boolean isExternalStorageDocument(Uri uri) {
+        return "com.android.externalstorage.documents".equals(uri
+                .getAuthority());
+    }
+    public static boolean isDownloadsDocument(Uri uri) {
+        return "com.android.providers.downloads.documents".equals(uri
+                .getAuthority());
+    }
 
     /**
      * 显示popwindow的方法
@@ -987,7 +995,7 @@ public class OrderDetailActivity extends BaseActivity {
 
     public static Uri converToContentUri(Context context, Uri uri) {
 
-        final boolean isKitKat = Build.VERSION.SDK_INT >= 18;
+        final boolean isKitKat = Build.VERSION.SDK_INT >= 19;
 
         // DocumentProvider
         if (isKitKat && DocumentsContract.isDocumentUri(context, uri)) {
@@ -1000,6 +1008,22 @@ public class OrderDetailActivity extends BaseActivity {
             if (!"image".equals(split[0])) {
                 return uri;
             }
+            if (isExternalStorageDocument(uri)) {
+                final String docId = DocumentsContract.getDocumentId(uri);
+                final String type = split[0];
+                if ("primary".equalsIgnoreCase(type)) {
+                    return Uri.parse(Environment.getExternalStorageDirectory() + "/"
+                            + split[1]);
+                }
+            }
+            if(isDownloadsDocument(uri)){
+                final String id = DocumentsContract.getDocumentId(uri);
+                final Uri contentUri = ContentUris.withAppendedId(
+                        Uri.parse("content://downloads/public_downloads"),
+                        Long.valueOf(id));
+                return Uri.parse(getDataColumn(context, contentUri, null, null));
+            }
+
             uri = Uri.withAppendedPath(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, split[1]);
 
             return uri;
@@ -1031,6 +1055,24 @@ public class OrderDetailActivity extends BaseActivity {
             }
         }
         return uri;
+    }
+    public static String getDataColumn(Context context, Uri uri,
+                                       String selection, String[] selectionArgs) {
+        Cursor cursor = null;
+        final String column = "_data";
+        final String[] projection = { column };
+        try {
+            cursor = context.getContentResolver().query(uri, projection,
+                    selection, selectionArgs, null);
+            if (cursor != null && cursor.moveToFirst()) {
+                final int index = cursor.getColumnIndexOrThrow(column);
+                return cursor.getString(index);
+            }
+        } finally {
+            if (cursor != null)
+                cursor.close();
+        }
+        return null;
     }
 
     public Bitmap getCropedBitmap(Context context, boolean clear) {

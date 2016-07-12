@@ -8,6 +8,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.content.SharedPreferences;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.net.Uri;
@@ -17,6 +18,7 @@ import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
 import android.os.SystemClock;
+import android.preference.PreferenceManager;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
@@ -114,13 +116,52 @@ public class MainActivity extends BaseActivity implements OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        isRefreshXG=true;
+        isRefreshXG = true;
         mContext = this;
         setContentView(R.layout.activity_map);
         initView();
         initLocation();
         published();
+        PackageInfo info = null;
+        try {
+            info = getPackageManager().getPackageInfo(this.getPackageName(), 0);
 
+            float currentVersion = Float.valueOf(info.versionName);
+            SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
+            int lastVersion = prefs.getInt("VERSION_KEY", 0);
+            if (currentVersion > lastVersion) {
+                //如果当前版本大于上次版本，该版本属于第一次启动
+                userAction.setStatistic(mContext, new AsyncHandler() {
+                    @Override
+                    public void onSuccess(Object obj) {
+
+                    }
+
+                    @Override
+                    public void onFailure(int statusCode, String message) {
+
+                    }
+                });
+                //将当前版本写入preference中，则下次启动的时候，据此判断，不再为首次启动
+
+                prefs.edit().putFloat("VERSION_KEY", currentVersion).commit();
+                if (currentVersion != 1.0) {
+                    userAction.setStatisticUpdate(mContext, new AsyncHandler() {
+                        @Override
+                        public void onSuccess(Object obj) {
+
+                        }
+
+                        @Override
+                        public void onFailure(int statusCode, String message) {
+
+                        }
+                    });
+                }
+            }
+        } catch (PackageManager.NameNotFoundException e) {
+            e.printStackTrace();
+        }
         //注册广播
         IntentFilter filter = new IntentFilter();
         filter.addAction(ACTION);
@@ -239,11 +280,11 @@ public class MainActivity extends BaseActivity implements OnClickListener {
         mBaiduMap.setOnMarkerClickListener(new BaiduMap.OnMarkerClickListener() {
             @Override
             public boolean onMarkerClick(Marker marker) {
-                if (marker==markerPositon){
-                    TextView textView=new TextView(mContext);
+                if (marker == markerPositon) {
+                    TextView textView = new TextView(mContext);
                     textView.setText(position.getAddress());
                     LatLng ll = marker.getPosition();
-                    InfoWindow      mInfoWindow = new InfoWindow(textView, ll, -47);
+                    InfoWindow mInfoWindow = new InfoWindow(textView, ll, -47);
                     mBaiduMap.showInfoWindow(mInfoWindow);
                 }
 
@@ -331,8 +372,8 @@ public class MainActivity extends BaseActivity implements OnClickListener {
 
                 Intent EmergencyRepair = new Intent(this,
                         EmergencyRepairActivity.class);
-                EmergencyRepair.putExtra("location_lat",location_lat);
-                EmergencyRepair.putExtra("location_lot",location_lot);
+                EmergencyRepair.putExtra("location_lat", location_lat);
+                EmergencyRepair.putExtra("location_lot", location_lot);
                 startActivity(EmergencyRepair);
 
                 break;
@@ -658,8 +699,8 @@ public class MainActivity extends BaseActivity implements OnClickListener {
                                             .setVisibility(View.GONE);
                                     voice_rcd_hint_rcding
                                             .setVisibility(View.GONE);
-    //                                voice_rcd_hint_tooshort
-    //                                        .setVisibility(View.VISIBLE);
+                                    //                                voice_rcd_hint_tooshort
+                                    //                                        .setVisibility(View.VISIBLE);
                                     mHandler.postDelayed(new Runnable() {
                                         public void run() {
                                             voice_rcd_hint_tooshort
@@ -761,7 +802,7 @@ public class MainActivity extends BaseActivity implements OnClickListener {
                 .getSettingString(mContext, UserData.user_ID))) {
             userAction.publish(this, null, new File(voicePath), null, false, null,
                     Address, location_lot, location_lat,
-                    UserData.getSettingString(mContext, UserData.access_token),true,
+                    UserData.getSettingString(mContext, UserData.access_token), true,
                     new AsyncHandler() {
 
                         @Override
@@ -779,10 +820,10 @@ public class MainActivity extends BaseActivity implements OnClickListener {
                         @Override
                         public void onFailure(int statusCode, String message) {
 
-                            if (message!=null&&!"".equals(message)){
+                            if (message != null && !"".equals(message)) {
                                 BaseToast.makeLongToast(
                                         mContext, message);
-                            }else {
+                            } else {
                                 BaseToast.makeLongToast(
                                         mContext, "发布失败，请稍后再试");
                             }
@@ -877,10 +918,10 @@ public class MainActivity extends BaseActivity implements OnClickListener {
                             map_dissuccess_rel.setVisibility(View.GONE);
                             if (state.equals("PICKER")) {//已被捡取
                                 startGetPosition();
-    //                            Intent intent = new Intent(MainActivity.this,
-    //                                    DisSuccessActivity.class);
-    //                            intent.putExtra("publised", publised);
-    //                            MainActivity.this.startActivity(intent);
+                                //                            Intent intent = new Intent(MainActivity.this,
+                                //                                    DisSuccessActivity.class);
+                                //                            intent.putExtra("publised", publised);
+                                //                            MainActivity.this.startActivity(intent);
                                 //  MainActivity.this.finish();
 
                                 disSuccess_name.setText(publised.getProcessorName());
@@ -978,7 +1019,6 @@ public class MainActivity extends BaseActivity implements OnClickListener {
     }
 
 
-
     @Override
     protected void onNewIntent(Intent intent) {
         super.onNewIntent(intent);
@@ -987,7 +1027,7 @@ public class MainActivity extends BaseActivity implements OnClickListener {
     }
 
     private void initXGPushManager() {
-        if (isRefreshXG){
+        if (isRefreshXG) {
 
             XGPushManager.registerPush(mContext,
                     UserData.getSettingString(mContext, UserData.user_phone),
@@ -1004,7 +1044,7 @@ public class MainActivity extends BaseActivity implements OnClickListener {
                             Log.d("", "");
                         }
                     });
-            isRefreshXG=false;
+            isRefreshXG = false;
         }
 
 
@@ -1016,7 +1056,6 @@ public class MainActivity extends BaseActivity implements OnClickListener {
             published();
         }
     };
-
 
 
     TimerTask task = new TimerTask() {
@@ -1058,46 +1097,48 @@ public class MainActivity extends BaseActivity implements OnClickListener {
         }
 
     }
+
     Marker markerPositon;
     Position position;
+
     private void getPosition() {
         String access_token = UserData.getSettingString(mContext,
                 UserData.access_token);
 
         userAction.getPosition(mContext, publised.getProcessorId(), access_token, new AsyncHandler() {
-            @Override
-            public void onSuccess(Object obj) {
-                try {
-                    if (obj != null) {
-                        markerPositon.remove();
-                        mBaiduMap.hideInfoWindow();
-                        position = (Position) obj;
-                        BitmapDescriptor bdp = BitmapDescriptorFactory
-                                .fromResource(R.drawable.worker_icon);
-                        LatLng lat = new LatLng(position
-                                .getLatitude(), position
-                                .getLongitude());// 初始化地图定位坐标位置
-                        MarkerOptions op = new MarkerOptions()
-                                .position(lat).icon(bdp).zIndex(17);
-                        markerPositon=(Marker) mBaiduMap.addOverlay(op) ;
-                    }
-                    }catch(Exception e){
-                        e.printStackTrace();
-                    }
+                    @Override
+                    public void onSuccess(Object obj) {
+                        try {
+                            if (obj != null) {
+                                markerPositon.remove();
+                                mBaiduMap.hideInfoWindow();
+                                position = (Position) obj;
+                                BitmapDescriptor bdp = BitmapDescriptorFactory
+                                        .fromResource(R.drawable.worker_icon);
+                                LatLng lat = new LatLng(position
+                                        .getLatitude(), position
+                                        .getLongitude());// 初始化地图定位坐标位置
+                                MarkerOptions op = new MarkerOptions()
+                                        .position(lat).icon(bdp).zIndex(17);
+                                markerPositon = (Marker) mBaiduMap.addOverlay(op);
+                            }
+                        } catch (Exception e) {
+                            e.printStackTrace();
+                        }
 
 
+                    }
+
+                    @Override
+                    public void onFailure(int statusCode, String message) {
+
+                    }
                 }
 
-                @Override
-                public void onFailure ( int statusCode, String message){
-
-                }
-            }
-
-            );
-
-
-        }
+        );
 
 
     }
+
+
+}
