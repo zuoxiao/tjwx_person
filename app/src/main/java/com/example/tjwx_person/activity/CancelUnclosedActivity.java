@@ -175,8 +175,12 @@ public class CancelUnclosedActivity extends BaseActivity {
 
                     @Override
                     public void onFailure(int statusCode, String message) {
+                        if (message != null && !"".equals(message)) {
+                            BaseToast.makeLongToast(mContext, message);
+                        } else {
+                            BaseToast.makeLongToast(mContext, "取消失败，请稍后再试");
+                        }
 
-                        BaseToast.makeLongToast(mContext, "取消失败，请稍后再试");
 
                     }
                 });

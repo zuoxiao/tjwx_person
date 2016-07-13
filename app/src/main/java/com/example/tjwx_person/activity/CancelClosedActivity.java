@@ -314,7 +314,11 @@ public class CancelClosedActivity extends BaseActivity {
 
                     @Override
                     public void onFailure(int statusCode, String message) {
-                        BaseToast.makeLongToast(mContext, "取消失败，请稍后再试");
+                        if (message!=null&&!"".equals(message)){
+                            BaseToast.makeLongToast(mContext,message);
+                        }else {
+                            BaseToast.makeLongToast(mContext, "取消失败，请稍后再试");
+                        }
 
                     }
                 });
