@@ -8,6 +8,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import com.google.gson.Gson;
+import com.google.gson.JsonSyntaxException;
 
 /**
  *
@@ -294,8 +295,13 @@ public class SetGetJson {
 	 */
 	public static <T> T fromJson(String str, Type type)
 			throws JsonFreameworkException {
-		Gson gson = new Gson();
-		return gson.fromJson(str, type);
+		try {
+			Gson gson = new Gson();
+			return gson.fromJson(str, type);
+		} catch (JsonSyntaxException e) {
+			e.printStackTrace();
+		}
+		return null;
 	}
 
 	/**
@@ -307,8 +313,13 @@ public class SetGetJson {
 	 */
 	public static <T> T fromJson(String str, Class<T> type)
 			throws JsonFreameworkException {
-		Gson gson = new Gson();
-		return gson.fromJson(str, type);
+		try {
+			Gson gson = new Gson();
+			return gson.fromJson(str, type);
+		} catch (JsonSyntaxException e) {
+			e.printStackTrace();
+		}
+		return null;
 	}
 
 }

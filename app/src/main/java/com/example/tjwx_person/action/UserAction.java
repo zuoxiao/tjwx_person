@@ -666,7 +666,7 @@ public class UserAction {
         // key 的组成部分按照 tag + 平台接口方法名称 来
         String key = TAG + URLConstant.statistic;
         HttpService.getData4Post(context, URLConstant.statistic, true, key,
-                str, params, handle, PersenData.class);
+                str, params, handle, null);
     }
     /**
      * 安装量统计
@@ -685,7 +685,7 @@ public class UserAction {
         // key 的组成部分按照 tag + 平台接口方法名称 来
         String key = TAG + URLConstant.statistic;
         HttpService.getData4Post(context, URLConstant.statistic, true, key,
-                str, params, handle, PersenData.class);
+                str, params, handle, null);
     }
 
 

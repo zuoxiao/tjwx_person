@@ -399,14 +399,19 @@ public class HttpService {
                     }
                     if (!"".equals(data) && !"[]".equals(data)) {
                         obj = SetGetJson.fromJson(data, type);
-                    }
-                    if (type.equals(UpdateDown.class)) {
-                        boolean isupData = SetGetJson.getResult4Str(datas, "update");
-                        UpdateDown updateDown=(UpdateDown) obj;
-                        updateDown.setUpdate(isupData);
-                        handle.onSuccess(obj);
-                    }else {
-                        handle.onSuccess(obj);
+
+
+                        if (type.equals(UpdateDown.class)) {
+                            boolean isupData = SetGetJson.getResult4Str(datas, "update");
+                            UpdateDown updateDown = (UpdateDown) obj;
+                            updateDown.setUpdate(isupData);
+                            handle.onSuccess(obj);
+                        } else {
+
+                            handle.onSuccess(obj);
+                        }
+                    } else {
+                        handle.onFailure(0, "");
                     }
 
 

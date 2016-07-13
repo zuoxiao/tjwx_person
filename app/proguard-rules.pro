@@ -19,6 +19,7 @@
 # -keep class android.support.v4.** { *; } //对于v4中的类不进行代码混淆
 # -keep interface android.support.v4.app.** { *; } //对于v4中的接口不进行代码混淆
 #}
+-verbose
 -keepattributes Signature
 
 -keep class com.tencent.mobileqq.** {*;}
@@ -36,13 +37,21 @@
 
 
 
--keep class com.cxcl.property.customer.wxapi.** {*; }
+
 -keepclassmembers class * implements java.io.Serializable { *; }
--keepclassmembers  class com.cxcl.property.customer.net.** { *; }
+
 
 #混淆时仍被意外混淆或抛弃的类
 
+-keep class cn.sharesdk.**{*;}
+-keep class com.sina.**{*;}
+-keep class **.R$* {*;}
+-keep class **.R{*;}
 
+-keep class com.mob.**{*;}
+-dontwarn com.mob.**
+-dontwarn cn.sharesdk.**
+-dontwarn **.R$*
 
 #javaBean不被混淆
 -keep class com.example.tjwx_person.bean.** { *; }

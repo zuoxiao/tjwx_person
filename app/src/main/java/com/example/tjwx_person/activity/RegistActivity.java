@@ -103,7 +103,8 @@ public class RegistActivity extends BaseActivity {
 
                             @Override
                             public void onFailure(int statusCode, String message) {
-                                // TODO Auto-generated method stub
+                                if (message != null && !"".equals(message))
+                                    BaseToast.makeShortToast(mContext, message);
                                 Log.d("", "");
                             }
                         });
@@ -284,7 +285,7 @@ public class RegistActivity extends BaseActivity {
                 if (obj != null) {
                     try {
                         UpdateDown url = (UpdateDown) obj;
-                        if (url.isUpdate()){
+                        if (url.isUpdate()) {
                             dialog("http://" + URLConstant.HOST + ":8084/frontend" + url.getUrl());
                         }
 
