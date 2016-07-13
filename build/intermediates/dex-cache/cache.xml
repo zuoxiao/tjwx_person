@@ -1,3 +1,236 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="D:\AndroidProject\tjwx_person\app\libs\locSDK_6.13.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="2cdb37444b41b42e1ce5a8a27e5d3c22e1c57479">
+        <dex dex="D:\AndroidProject\tjwx_person\app\build\intermediates\transforms\dex\debug\folders\1000\2\locSDK_6.13_0d6fd59e69877c7e7f27253e352167b066b46b25\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProject\tjwx_person\app\libs\baidumapapi_map_v3_7_1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="29595e6b2f19f7a79cefe7269d1662333feeab45">
+        <dex dex="D:\AndroidProject\tjwx_person\app\build\intermediates\transforms\dex\debug\folders\1000\2\baidumapapi_map_v3_7_1_750a9bc087c15e3020848e270cf36d7626d8d348\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProject\tjwx_person\app\libs\ShareSDK-QZone-2.7.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ab780cc4d045859b20a2177b7045e6ac6ec44be3">
+        <dex dex="D:\AndroidProject\tjwx_person\app\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-QZone-2.7.2_5d693606d82127c17a635ca0958e0ca8c0daf687\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProject\tjwx_person\app\libs\ShareSDK-ShortMessage-2.7.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ab3c5ecdf37204d0466bdb15668753362618f861">
+        <dex dex="D:\AndroidProject\tjwx_person\app\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-ShortMessage-2.7.2_bccf7bcbd4a7fd1d89ccf6cdcb322f90c4adecfe\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProject\tjwx_person\app\libs\ShareSDK-SinaWeibo-2.7.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="7d038932c1902316f542e2ca7b7d73c16265185a">
+        <dex dex="D:\AndroidProject\tjwx_person\app\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-SinaWeibo-2.7.2_cf70bb4e8479e80ff4cde6e48dabcd2fcada81d8\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProject\tjwx_person\app\libs\ShareSDK-Wechat-Moments-2.7.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="e77e9127a0d9dadf0cf4963f14a6449a4e1dbe37">
+        <dex dex="D:\AndroidProject\tjwx_person\app\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-Wechat-Moments-2.7.2_22eb4b9c25329862dd6b2833595660d1105a9b10\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProject\tjwx_person\app\libs\alipaySdk-20160223.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ff0f8e55a08ddd28e1fa8e94e2d8881264a5f345">
+        <dex dex="D:\AndroidProject\tjwx_person\app\build\intermediates\transforms\dex\debug\folders\1000\2\alipaySdk-20160223_1ef49d904b1722093c67e510bd875f27145cda69\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProject\tjwx_person\app\libs\libammsdk.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d7c2f29c05b35e8c8713be2b81c41cf18f98b64a">
+        <dex dex="D:\AndroidProject\tjwx_person\app\build\intermediates\transforms\dex\debug\folders\1000\2\libammsdk_0d08d72b178565794e86a4898248871675c76a24\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProject\tjwx_person\app\libs\ShareSDK-QQ-2.7.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c3717539454ca4b61bf8323a6f307c248a1bd0ef">
+        <dex dex="D:\AndroidProject\tjwx_person\app\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-QQ-2.7.2_0ca92e0aa3b4b59593be7b16228f1abfbf9057d8\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProject\tjwx_person\app\libs\baidumapapi_base_v3_7_1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="977a8dfd855077c6bfcfb44adce39927e0397e66">
+        <dex dex="D:\AndroidProject\tjwx_person\app\build\intermediates\transforms\dex\debug\folders\1000\2\baidumapapi_base_v3_7_1_08735048f3ffc4e5e562695221f307397ca5a9f1\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProject\tjwx_person\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\jars\libs\internal_impl-20.0.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="D:\AndroidProject\tjwx_person\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-20.0.0_fb538c70b3c803a3d2ad438f42daf0db73eb3978\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProject\tjwx_person\app\libs\ShareSDK-Wechat-2.7.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="6d87b1916e872678665a0d06c873c7712ed91457">
+        <dex dex="D:\AndroidProject\tjwx_person\app\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-Wechat-2.7.2_a6b0d454523590a1a37a97a03a9e79d3bccc0e02\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProject\tjwx_person\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ef34a498e331e4a9026685b64e76f22294aaf2f0">
+        <dex dex="D:\AndroidProject\tjwx_person\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_294831beea28be72f91244e6808d1d79d877e430\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProject\tjwx_person\app\libs\Xg_sdk_v2.46_20160602_1638.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="32985de9bccdafb52efeb6e1b55a25b45559f4c6">
+        <dex dex="D:\AndroidProject\tjwx_person\app\build\intermediates\transforms\dex\debug\folders\1000\2\Xg_sdk_v2.46_20160602_1638_e915279100e17f07f498afd99740b8ab1f6479c3\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProject\tjwx_person\app\libs\android-async-http-1.4.8.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="77bbfe240e437ecb396d982afa0d3bd4f9090ba7">
+        <dex dex="D:\AndroidProject\tjwx_person\app\build\intermediates\transforms\dex\debug\folders\1000\2\android-async-http-1.4.8_11992c2ce5e2cafafe521afddda50409b25dce9a\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProject\tjwx_person\app\libs\ShareSDK-Core-2.7.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="484d87cb8abd3c6d05eeca5abfac1cdd1aa1dc2e">
+        <dex dex="D:\AndroidProject\tjwx_person\app\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-Core-2.7.2_d366d2df5fe08b36fb741dd4a159e8296fe23629\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProject\tjwx_person\app\libs\baidumapapi_util_v3_7_1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="9ec067777962d6ad4b7d4c0e1aff93e83180d207">
+        <dex dex="D:\AndroidProject\tjwx_person\app\build\intermediates\transforms\dex\debug\folders\1000\2\baidumapapi_util_v3_7_1_fcf7abf50d5eef7e3348b8e5b53a37cda73172c0\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProject\tjwx_person\app\libs\MobCommons-2016.0426.1819.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="5fce3a96cadb15dd2980863f403d7d1ab8732989">
+        <dex dex="D:\AndroidProject\tjwx_person\app\build\intermediates\transforms\dex\debug\folders\1000\2\MobCommons-2016.0426.1819_52902dfa9e141d3a69f97f9b9157ba35c119b0b6\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProject\tjwx_person\app\libs\baidumapapi_radar_v3_7_1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c8da9b62f066eb66be4186def8d5697329081672">
+        <dex dex="D:\AndroidProject\tjwx_person\app\build\intermediates\transforms\dex\debug\folders\1000\2\baidumapapi_radar_v3_7_1_3c1393165f04a3a4d128bcd5c139fa467cfada88\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProject\tjwx_person\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\20.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef">
+        <dex dex="D:\AndroidProject\tjwx_person\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-20.0.0_a1de88008bd8f14153d3c5188bdc24e12fe1f5f4\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProject\tjwx_person\app\libs\jg_filter_sdk_1.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ebfc3cde0309ff27e9568757784eefefc71407a2">
+        <dex dex="D:\AndroidProject\tjwx_person\app\build\intermediates\transforms\dex\debug\folders\1000\2\jg_filter_sdk_1.1_a8266a39c694b202aeb507308cbfb9d78e7635c4\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidStudio\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="D:\AndroidProject\tjwx_person\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-20.0.0_35f10c30e6a4a24ab86294d222a5a80aebd626bc\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProject\tjwx_person\app\libs\ShareSDK-Renren-2.7.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="3c07694c6ca639cf66b4a30dc31d983215c1ad8e">
+        <dex dex="D:\AndroidProject\tjwx_person\app\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-Renren-2.7.2_e4b661550507198bdc3aa28527b82304021a9b22\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProject\tjwx_person\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="b0c4f3b91c990e6334d2e915d499f8685702fa61">
+        <dex dex="D:\AndroidProject\tjwx_person\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_b1be8169fa05ca04475785047ae5b0f620f6aa07\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProject\tjwx_person\app\libs\ShareSDK-Wechat-Favorite-2.7.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d195548d5cba02c925eb418118ac129322e209dd">
+        <dex dex="D:\AndroidProject\tjwx_person\app\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-Wechat-Favorite-2.7.2_8f4ab110e1489b9b7687f8c99e232ef3390d904b\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProject\tjwx_person\app\libs\universal-image-loader-1.9.5.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="D:\AndroidProject\tjwx_person\app\build\intermediates\transforms\dex\debug\folders\1000\2\universal-image-loader-1.9.5_890aed760528e369a1dac704bb53288dd5223be0\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProject\tjwx_person\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="D:\AndroidProject\tjwx_person\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-20.0.0_993f4b43251f004becc440f312c49a7d9bcf48b9\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProject\tjwx_person\app\libs\wup-1.0.0.E-SNAPSHOT.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d5a0917f8418b3726f89ae120182dfb6b884740d">
+        <dex dex="D:\AndroidProject\tjwx_person\app\build\intermediates\transforms\dex\debug\folders\1000\2\wup-1.0.0.E-SNAPSHOT_144d27486bf2363786a4ce355747fd1c926ca7b1\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProject\tjwx_person\app\libs\baidumapapi_cloud_v3_7_1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="fecf060a9ea56960976400e922d1e5c8cd8b6fd2">
+        <dex dex="D:\AndroidProject\tjwx_person\app\build\intermediates\transforms\dex\debug\folders\1000\2\baidumapapi_cloud_v3_7_1_31a35c16ba8ca962feefcd1cf7547164257015ee\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProject\tjwx_person\app\libs\ShareSDK-Wechat-Core-2.7.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8d2e75c7f5b644b69198a6c89deffab067fa5e88">
+        <dex dex="D:\AndroidProject\tjwx_person\app\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-Wechat-Core-2.7.2_ff1c81a6ead3d3a316bc6734e12693c35ebcc70d\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProject\tjwx_person\app\libs\baidumapapi_search_v3_7_1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="682cacce5564412cda8c29bf0e405c474e773379">
+        <dex dex="D:\AndroidProject\tjwx_person\app\build\intermediates\transforms\dex\debug\folders\1000\2\baidumapapi_search_v3_7_1_4dbc9af4c4d7cbfa638c3fbb61b5ba9dca5e0454\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\zuo\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.2.2\1f96456ca233dec780aa224bff076d8e8bca3908\gson-2.2.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="1f96456ca233dec780aa224bff076d8e8bca3908">
+        <dex dex="D:\AndroidProject\tjwx_person\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.2.2_519a7d8bc36e548db81457539dec44a41a12a025\classes.dex" />
+    </item>
+    <item
+        jar="D:\AndroidProject\tjwx_person\app\libs\MobTools-2016.0426.1819.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="e2c5ab92b762c42cd30e6787cc401ae01e002512">
+        <dex dex="D:\AndroidProject\tjwx_person\app\build\intermediates\transforms\dex\debug\folders\1000\2\MobTools-2016.0426.1819_4689acf204ef2bc8495598b8ba131ee7639b4f77\classes.dex" />
+    </item>
+
+</items>

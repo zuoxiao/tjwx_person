@@ -307,7 +307,7 @@ public class CancelClosedActivity extends BaseActivity {
                         if (PayActivity.isFinsh != null) {
                             PayActivity.isFinsh.finish();
                         }
-
+                        UserData.setSettingBoolean(mContext,UserData.isRefreshMain,true);
                         UserData.setSettingBoolean(mContext,
                                 UserData.isPublish, false);
                     }

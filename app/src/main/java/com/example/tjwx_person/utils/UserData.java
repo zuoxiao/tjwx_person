@@ -19,6 +19,7 @@ public class UserData {
      */
     public static String isPublish = "isPublish";
     public static String state = "state";
+    public static String isRefreshMain = "isRefreshMain";
     // 用户信息
     public static String User_lat = "User_lat";
     public static String User_lot = "User_lot";
@@ -53,7 +54,8 @@ public class UserData {
     public static String totalElements = "totalElements";
 
 
-    public static String Singlence="Singlence";
+    public static String Singlence = "Singlence";
+
     /**
      * 保存String类型数据
      *

@@ -856,6 +856,27 @@ public class MainActivity extends BaseActivity implements OnClickListener {
             map_title.setVisibility(View.VISIBLE);
             rl_voice.setVisibility(View.VISIBLE);
         }
+        if (UserData.getSettingBoolean(mContext, UserData.isRefreshMain)) {
+            try {
+                UserData.setSettingBoolean(mContext, UserData.isRefreshMain, false);
+                stopGetPosition();
+                map_order.setVisibility(View.GONE);
+                map_title.setVisibility(View.VISIBLE);
+                rl_map_notice.setVisibility(View.GONE);
+                rl_voice.setVisibility(View.VISIBLE);
+                UserData.setSettingBoolean(mContext,
+                        UserData.isPublish, false);
+                if (marker != null && marker.size() > 0) {
+                    for (int i = 0; i < marker.size(); i++) {
+                        marker.get(i).remove();
+                    }
+                    mBaiduMap.hideInfoWindow();
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+        }
         if (!"".equals(UserData
                 .getSettingString(mContext, UserData.user_ID))) {
             published();
