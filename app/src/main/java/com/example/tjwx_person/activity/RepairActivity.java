@@ -322,6 +322,8 @@ public class RepairActivity extends BaseActivity {
             if (!"".equals(UserData
                     .getSettingString(mContext, UserData.user_ID))) {
                 published();
+            } else {
+                BaseToast.makeShortToast(mContext, "自动提交失败，请重试");
             }
         }
     }

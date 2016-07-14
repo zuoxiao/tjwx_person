@@ -4,8 +4,6 @@
       <root url="jar://$PROJECT_DIR$/app/libs/android-async-http-1.4.8.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES>
-      <root url="jar://$USER_HOME$/.ideaLibSources/android-async-http-1.4.8-sources.jar!/" />
-    </SOURCES>
+    <SOURCES />
   </library>
 </component>

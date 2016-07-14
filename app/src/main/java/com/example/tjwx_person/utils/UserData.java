@@ -69,15 +69,14 @@ public class UserData {
                 PREFIX_NAME, 0);
         SharedPreferences.Editor prefEditor = clientPreferences.edit();
         prefEditor.putString(key, value);
-        prefEditor.commit();
+     //   prefEditor.commit();
+        prefEditor.apply();
     }
 
     /**
      * 获取String类型数据
      *
      * @param context
-     * @param key
-     * @param value
      */
     public static String getSettingString(Context context, String strKey) {
         SharedPreferences clientPreferences = context.getSharedPreferences(
@@ -90,23 +89,21 @@ public class UserData {
      * 删除String类型数据
      *
      * @param context
-     * @param key
-     * @param value
+
      */
     public static void ClearSettingString(Context context, String strKey) {
         SharedPreferences clientPreferences = context.getSharedPreferences(
                 PREFIX_NAME, 0);
         SharedPreferences.Editor prefEditor = clientPreferences.edit();
         prefEditor.remove(strKey);
-        prefEditor.commit();
+        prefEditor.apply();
     }
 
     /**
      * 保存boolean类型数据
      *
      * @param context
-     * @param key
-     * @param value
+
      */
     public static void setSettingBoolean(Context context, String strKey,
                                          boolean value) {
@@ -114,15 +111,14 @@ public class UserData {
                 PREFIX_NAME, 0);
         SharedPreferences.Editor prefEditor = clientPreferences.edit();
         prefEditor.putBoolean(strKey, value);
-        prefEditor.commit();
+        prefEditor.apply();
     }
 
     /**
      * 获取boolean类型数据
      *
      * @param context
-     * @param key
-     * @param value
+
      */
     public static boolean getSettingBoolean(Context context, String strKey) {
         SharedPreferences clientPreferences = context.getSharedPreferences(
@@ -143,7 +139,6 @@ public class UserData {
      * 保存int类型数据
      *
      * @param context
-     * @param key
      * @param value
      */
     public static void setSettingInt(Context context, String strKey, int value) {
@@ -151,15 +146,13 @@ public class UserData {
                 PREFIX_NAME, 0);
         SharedPreferences.Editor prefEditor = clientPreferences.edit();
         prefEditor.putInt(strKey, value);
-        prefEditor.commit();
+        prefEditor.apply();
     }
 
     /**
      * 获取int类型数据
      *
      * @param context
-     * @param key
-     * @param value
      */
     public static int getSettingInt(Context context, String strKey) {
         SharedPreferences clientPreferences = context.getSharedPreferences(
@@ -182,15 +175,13 @@ public class UserData {
         SharedPreferences.Editor prefEditor = clientPreferences.edit();
         prefEditor.putString(TripleDES.encryptAndBase64(key),
                 TripleDES.encryptAndBase64(value));
-        prefEditor.commit();
+        prefEditor.apply();
     }
 
     /**
      * 获取加密String类型数据
      *
      * @param context
-     * @param key
-     * @param value
      */
     public static String getEncrpSettingString(Context context, String strKey) {
         SharedPreferences clientPreferences = context.getSharedPreferences(

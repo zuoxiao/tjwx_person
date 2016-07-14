@@ -81,6 +81,7 @@ public class EmergencyRepairActivity extends BaseActivity {
     private TextView voice_btn;
     double location_lat;
     double location_lot;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -176,8 +177,8 @@ public class EmergencyRepairActivity extends BaseActivity {
         // }
         // });
         try {
-            location_lat=getIntent().getDoubleExtra("location_lat",0);
-            location_lot=getIntent().getDoubleExtra("location_lot",0);
+            location_lat = getIntent().getDoubleExtra("location_lat", 0);
+            location_lot = getIntent().getDoubleExtra("location_lot", 0);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -193,7 +194,7 @@ public class EmergencyRepairActivity extends BaseActivity {
         repair_type.setAdapter(adapter);
         userAction.getTypes(mContext,
                 UserData.getSettingString(mContext, UserData.xg_token),
-                UserData.getSettingString(mContext, UserData.access_token),true,
+                UserData.getSettingString(mContext, UserData.access_token), true,
                 true, new AsyncHandler() {
 
                     @Override
@@ -255,7 +256,9 @@ public class EmergencyRepairActivity extends BaseActivity {
         this.finish();
 
     }
-    String skillIds=null;
+
+    String skillIds = null;
+
     @Override
     public void onClick(View v) {
         super.onClick(v);
@@ -273,20 +276,20 @@ public class EmergencyRepairActivity extends BaseActivity {
                     }
                 }
                 if (skillIds != null) {
-                if (Utils.isNetworkAvailable(mContext)) {
-                    if (!"".equals(UserData
-                            .getSettingString(mContext, UserData.user_ID))) {
-                        publish();
-                    } else {
-                        Intent regist = new Intent(this, RegistActivity.class);
-                        regist.putExtra("Regist_type", 2);
-                        startActivityForResult(regist, 4);
-                    }
+                    if (Utils.isNetworkAvailable(mContext)) {
+                        if (!"".equals(UserData
+                                .getSettingString(mContext, UserData.user_ID))) {
+                            publish();
+                        } else {
+                            Intent regist = new Intent(this, RegistActivity.class);
+                            regist.putExtra("Regist_type", 2);
+                            startActivityForResult(regist, 4);
+                        }
 
+                    } else {
+                        BaseToast.makeShortToast(mContext, "网络连接失败，请检查您的网络连接");
+                    }
                 } else {
-                    BaseToast.makeShortToast(mContext, "网络连接失败，请检查您的网络连接");
-                }
-                }else {
                     BaseToast.makeLongToast(mContext, "请选择维修类型");
                 }
                 break;
@@ -311,6 +314,8 @@ public class EmergencyRepairActivity extends BaseActivity {
             if (!"".equals(UserData
                     .getSettingString(mContext, UserData.user_ID))) {
                 published();
+            } else {
+                BaseToast.makeShortToast(mContext, "自动提交失败，请重试");
             }
         }
 
@@ -626,7 +631,7 @@ public class EmergencyRepairActivity extends BaseActivity {
         String access_token = UserData.getSettingString(mContext,
                 UserData.access_token);
     /*		if (access_token != null
-				&& !"".equals(UserData.getSettingString(mContext,
+                && !"".equals(UserData.getSettingString(mContext,
 				UserData.access_token))) {*/
         startProgressDialog();
         userAction.published(mContext, access_token, new AsyncHandler() {
