@@ -33,11 +33,6 @@
 -dontnote android.**$**
 -dontnote com.android.**
 
-
-
-
-
-
 -keepclassmembers class * implements java.io.Serializable { *; }
 
 
