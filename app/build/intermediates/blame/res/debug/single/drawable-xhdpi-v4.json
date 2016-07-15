@@ -1,15 +1,15 @@
 [
     {
-        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_cab_done_holo_dark.png",
-        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_ic_cab_done_holo_dark.png"
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ab_bottom_solid_dark_holo.9.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_ab_bottom_solid_dark_holo.9.png"
     },
     {
         "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_tencentweibo.png",
         "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_tencentweibo.png"
     },
     {
-        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ab_bottom_solid_dark_holo.9.png",
-        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_ab_bottom_solid_dark_holo.9.png"
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_cab_done_holo_dark.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_ic_cab_done_holo_dark.png"
     },
     {
         "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ab_stacked_transparent_dark_holo.9.png",
@@ -28,20 +28,20 @@
         "source": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\drawable-xhdpi\\abc_ic_clear_search_api_disabled_holo_light.png"
     },
     {
-        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_evernote.png",
-        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_evernote.png"
-    },
-    {
         "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_kaixin.png",
         "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_kaixin.png"
     },
     {
-        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_setup_voice_no.png",
-        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\icon_setup_voice_no.png"
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ssdk_oks_classic_evernote.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_evernote.png"
     },
     {
         "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\amp3.png",
         "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\amp3.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_setup_voice_no.png",
+        "source": "D:\\AndroidProject\\tjwx_person\\app\\src\\main\\res\\drawable-xhdpi\\icon_setup_voice_no.png"
     },
     {
         "merged": "D:\\AndroidProject\\tjwx_person\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png",

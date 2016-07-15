@@ -68,6 +68,7 @@ import com.example.tjwx_person.bean.OrderData;
 import com.example.tjwx_person.tool.voice.SoundMeter;
 import com.example.tjwx_person.utils.BaseToast;
 import com.example.tjwx_person.utils.CrashHandler;
+import com.umeng.analytics.MobclickAgent;
 
 /**
  * 详细信息（图片、描述、录音）
@@ -1204,5 +1205,12 @@ public class OrderDetailActivity extends BaseActivity {
         }
 
     }
-
+    public void onResume() {
+        super.onResume();
+        MobclickAgent.onResume(this);
+    }
+    public void onPause() {
+        super.onPause();
+        MobclickAgent.onPause(this);
+    }
 }

@@ -10,6 +10,7 @@ import com.example.tjwx_person.action.UserAction;
 import com.example.tjwx_person.http.AsyncHandler;
 import com.example.tjwx_person.utils.BaseToast;
 import com.example.tjwx_person.utils.UserData;
+import com.umeng.analytics.MobclickAgent;
 
 /**
  * Created by zuo on 2016/6/23.
@@ -63,5 +64,14 @@ public class FeelBackActivity extends BaseActivity {
         }
 
 
+    }
+
+    public void onResume() {
+        super.onResume();
+        MobclickAgent.onResume(this);
+    }
+    public void onPause() {
+        super.onPause();
+        MobclickAgent.onPause(this);
     }
 }

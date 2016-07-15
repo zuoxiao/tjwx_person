@@ -20,6 +20,7 @@ import com.example.tjwx_person.bean.AddressData;
 import com.example.tjwx_person.http.AsyncHandler;
 import com.example.tjwx_person.utils.BaseToast;
 import com.example.tjwx_person.utils.UserData;
+import com.umeng.analytics.MobclickAgent;
 
 /**
  * Created by zuo on 2016/6/19.
@@ -302,5 +303,14 @@ public class PersonDataActivity extends BaseActivity {
             updateAddress();
         }
 
+    }
+
+    public void onResume() {
+        super.onResume();
+        MobclickAgent.onResume(this);
+    }
+    public void onPause() {
+        super.onPause();
+        MobclickAgent.onPause(this);
     }
 }

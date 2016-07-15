@@ -5,6 +5,7 @@ import android.widget.TextView;
 
 import com.cxcl.property.customer.BaseActivity;
 import com.cxcl.property.customer.R;
+import com.umeng.analytics.MobclickAgent;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -46,5 +47,13 @@ public class CompanyClauseActivity extends BaseActivity {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+    public void onResume() {
+        super.onResume();
+        MobclickAgent.onResume(this);
+    }
+    public void onPause() {
+        super.onPause();
+        MobclickAgent.onPause(this);
     }
 }

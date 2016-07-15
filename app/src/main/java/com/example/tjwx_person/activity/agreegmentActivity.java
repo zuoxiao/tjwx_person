@@ -7,6 +7,7 @@ import android.widget.TextView;
 
 import com.cxcl.property.customer.BaseActivity;
 import com.cxcl.property.customer.R;
+import com.umeng.analytics.MobclickAgent;
 
 public class agreegmentActivity extends BaseActivity {
 	@Override
@@ -29,4 +30,12 @@ public void backButton() {
 	super.backButton();
 	this.finish();
 }
+	public void onResume() {
+		super.onResume();
+		MobclickAgent.onResume(this);
+	}
+	public void onPause() {
+		super.onPause();
+		MobclickAgent.onPause(this);
+	}
 }

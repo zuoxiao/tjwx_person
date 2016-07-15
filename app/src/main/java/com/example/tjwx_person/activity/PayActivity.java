@@ -24,6 +24,7 @@ import com.example.tjwx_person.receiver.NotificationService;
 import com.example.tjwx_person.receiver.XGNotification;
 import com.example.tjwx_person.utils.UserData;
 import com.tencent.android.tpush.XGPushManager;
+import com.umeng.analytics.MobclickAgent;
 
 public class PayActivity extends BaseActivity {
 
@@ -286,5 +287,12 @@ public class PayActivity extends BaseActivity {
 
         }
     }
-
+    public void onResume() {
+        super.onResume();
+        MobclickAgent.onResume(this);
+    }
+    public void onPause() {
+        super.onPause();
+        MobclickAgent.onPause(this);
+    }
 }

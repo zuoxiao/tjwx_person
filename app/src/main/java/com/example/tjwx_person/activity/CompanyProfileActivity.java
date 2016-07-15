@@ -4,6 +4,7 @@ import android.os.Bundle;
 
 import com.cxcl.property.customer.BaseActivity;
 import com.cxcl.property.customer.R;
+import com.umeng.analytics.MobclickAgent;
 
 /**
  * Created by zuo on 2016/6/24.
@@ -22,5 +23,13 @@ public class CompanyProfileActivity extends BaseActivity {
     public void backButton() {
         super.backButton();
         this.finish();
+    }
+    public void onResume() {
+        super.onResume();
+        MobclickAgent.onResume(this);
+    }
+    public void onPause() {
+        super.onPause();
+        MobclickAgent.onPause(this);
     }
 }

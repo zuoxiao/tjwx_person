@@ -12,6 +12,7 @@ import android.widget.TextView;
 import com.cxcl.property.customer.BaseActivity;
 import com.cxcl.property.customer.R;
 import com.example.tjwx_person.bean.publishedData;
+import com.umeng.analytics.MobclickAgent;
 
 import cn.sharesdk.onekeyshare.OnekeyShare;
 import cn.sharesdk.onekeyshare.OnekeyShareTheme;
@@ -127,5 +128,13 @@ public class Pay_OKActivity extends BaseActivity {
 
 		// 启动分享
 		oks.show(context);
+	}
+	public void onResume() {
+		super.onResume();
+		MobclickAgent.onResume(this);
+	}
+	public void onPause() {
+		super.onPause();
+		MobclickAgent.onPause(this);
 	}
 }

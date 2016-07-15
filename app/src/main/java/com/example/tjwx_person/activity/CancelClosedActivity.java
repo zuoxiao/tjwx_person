@@ -16,6 +16,7 @@ import com.example.tjwx_person.http.AsyncHandler;
 import com.example.tjwx_person.http.Utils;
 import com.example.tjwx_person.utils.BaseToast;
 import com.example.tjwx_person.utils.UserData;
+import com.umeng.analytics.MobclickAgent;
 
 /**
  * 取消被接后的订单
@@ -323,5 +324,13 @@ public class CancelClosedActivity extends BaseActivity {
                     }
                 });
 
+    }
+    public void onResume() {
+        super.onResume();
+        MobclickAgent.onResume(this);
+    }
+    public void onPause() {
+        super.onPause();
+        MobclickAgent.onPause(this);
     }
 }

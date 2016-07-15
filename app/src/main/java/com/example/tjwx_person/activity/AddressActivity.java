@@ -40,6 +40,7 @@ import com.example.tjwx_person.adapter.AddressAdapter;
 import com.example.tjwx_person.bean.AddressData;
 import com.example.tjwx_person.tool.listView.XListView;
 import com.example.tjwx_person.utils.UserData;
+import com.umeng.analytics.MobclickAgent;
 
 public class AddressActivity extends BaseActivity implements
         OnGetPoiSearchResultListener, OnGetGeoCoderResultListener {
@@ -384,4 +385,13 @@ public class AddressActivity extends BaseActivity implements
     // }
     // return super.onKeyDown(keyCode, event);
     // }
+
+    public void onResume() {
+        super.onResume();
+        MobclickAgent.onResume(this);
+    }
+    public void onPause() {
+        super.onPause();
+        MobclickAgent.onPause(this);
+    }
 }

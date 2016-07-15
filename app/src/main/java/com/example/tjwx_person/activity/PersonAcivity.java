@@ -30,6 +30,7 @@ import com.example.tjwx_person.tool.listView.XListView.IXListViewListener;
 import com.example.tjwx_person.utils.BaseToast;
 import com.example.tjwx_person.utils.UserData;
 import com.tencent.android.tpush.XGPushManager;
+import com.umeng.analytics.MobclickAgent;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -249,5 +250,12 @@ public class PersonAcivity extends BaseActivity {
         startActivity(loging);*/
     }
 
-
+    public void onResume() {
+        super.onResume();
+        MobclickAgent.onResume(this);
+    }
+    public void onPause() {
+        super.onPause();
+        MobclickAgent.onPause(this);
+    }
 }

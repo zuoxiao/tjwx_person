@@ -18,6 +18,7 @@ import com.example.tjwx_person.http.Utils;
 import com.example.tjwx_person.tool.listView.XListView;
 import com.example.tjwx_person.tool.listView.XListView.IXListViewListener;
 import com.example.tjwx_person.utils.UserData;
+import com.umeng.analytics.MobclickAgent;
 
 /**
  * 优惠券
@@ -115,5 +116,12 @@ public class CouponActivity extends BaseActivity implements IXListViewListener {
 					}
 				});
 	}
-
+	public void onResume() {
+		super.onResume();
+		MobclickAgent.onResume(this);
+	}
+	public void onPause() {
+		super.onPause();
+		MobclickAgent.onPause(this);
+	}
 }

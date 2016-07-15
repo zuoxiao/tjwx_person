@@ -69,6 +69,7 @@ import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.display.RoundedBitmapDisplayer;
 import com.tencent.android.tpush.XGIOperateCallback;
 import com.tencent.android.tpush.XGPushManager;
+import com.umeng.analytics.MobclickAgent;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -116,6 +117,8 @@ public class MainActivity extends BaseActivity implements OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+//        MobclickAgent.UMAnalyticsConfig config=new MobclickAgent.UMAnalyticsConfig(this,"","");
+//        MobclickAgent. startWithConfigure(config);
         isRefreshXG = true;
         mContext = this;
         setContentView(R.layout.activity_map);
@@ -430,7 +433,7 @@ public class MainActivity extends BaseActivity implements OnClickListener {
             published();
 
         }
-
+        MobclickAgent.onResume(this);
     }
 
     @Override
@@ -445,6 +448,7 @@ public class MainActivity extends BaseActivity implements OnClickListener {
         super.onPause();
         // 在activity执行onPause时执行mMapView. onPause ()，实现地图生命周期管理
         mMapView.onPause();
+        MobclickAgent.onPause(this);
     }
 
     private void initLocation() {
@@ -1162,6 +1166,7 @@ public class MainActivity extends BaseActivity implements OnClickListener {
 
 
     }
+
 
 
 }

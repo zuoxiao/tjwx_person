@@ -16,6 +16,7 @@ import com.example.tjwx_person.http.AsyncHandler;
 import com.example.tjwx_person.http.Utils;
 import com.example.tjwx_person.utils.BaseToast;
 import com.example.tjwx_person.utils.UserData;
+import com.umeng.analytics.MobclickAgent;
 
 /**
  * 拒绝支付
@@ -213,5 +214,14 @@ public class refused_to_payAcitivity extends BaseActivity {
     public void backButton() {
         super.backButton();
         this.finish();
+    }
+
+    public void onResume() {
+        super.onResume();
+        MobclickAgent.onResume(this);
+    }
+    public void onPause() {
+        super.onPause();
+        MobclickAgent.onPause(this);
     }
 }

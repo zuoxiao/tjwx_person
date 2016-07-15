@@ -94,7 +94,7 @@
 		审核的应用也可以执行分享，但是仅限于分享文字和图片，不能分享其他类型，
 		默认值为false。此外，微信收藏不支持此字段。
 	-->
-    <Wechat
+<!--    <Wechat
         Id="4"
         SortId="4"
         AppId="wxa1a8e4657fdf5bdd"
@@ -115,7 +115,7 @@
         SortId="6"
         AppId="wxa1a8e4657fdf5bdd"
         AppSecret="aa55acd4c61d3319189de046c575e9f1"
-        Enable="true" />
+        Enable="true" />-->
     
 	<!-- ShareByAppClient标识是否使用微博客户端分享，默认是false -->
 	<QQ

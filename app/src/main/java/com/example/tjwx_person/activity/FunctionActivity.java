@@ -12,6 +12,7 @@ import com.cxcl.property.customer.R;
 import com.example.tjwx_person.action.UserAction;
 import com.example.tjwx_person.bean.UpdateDown;
 import com.example.tjwx_person.http.AsyncHandler;
+import com.umeng.analytics.MobclickAgent;
 
 /**
  * Created by zuo on 2016/7/3.
@@ -88,5 +89,12 @@ public class FunctionActivity extends BaseActivity {
             return "";
         }
     }
-
+    public void onResume() {
+        super.onResume();
+        MobclickAgent.onResume(this);
+    }
+    public void onPause() {
+        super.onPause();
+        MobclickAgent.onPause(this);
+    }
 }

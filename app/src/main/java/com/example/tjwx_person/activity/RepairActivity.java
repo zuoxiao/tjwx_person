@@ -43,6 +43,7 @@ import com.example.tjwx_person.http.Utils;
 import com.example.tjwx_person.tool.TypePicker;
 import com.example.tjwx_person.utils.BaseToast;
 import com.example.tjwx_person.utils.UserData;
+import com.umeng.analytics.MobclickAgent;
 
 /**
  * 普通维修
@@ -511,6 +512,13 @@ public class RepairActivity extends BaseActivity {
         TextView confirm = (TextView) view.findViewById(R.id.wancheng);
         confirm.setOnClickListener(this);
     }
-
+    public void onResume() {
+        super.onResume();
+        MobclickAgent.onResume(this);
+    }
+    public void onPause() {
+        super.onPause();
+        MobclickAgent.onPause(this);
+    }
 
 }

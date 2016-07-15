@@ -8,6 +8,7 @@ import android.webkit.WebViewClient;
 
 import com.cxcl.property.customer.BaseActivity;
 import com.cxcl.property.customer.R;
+import com.umeng.analytics.MobclickAgent;
 
 /**
  * Created by zuo on 2016/6/26.
@@ -66,4 +67,13 @@ public class PricelistActivity extends BaseActivity {
 //
 //        return super.onKeyDown(keyCode, event);
 //    }
+
+    public void onResume() {
+        super.onResume();
+        MobclickAgent.onResume(this);
+    }
+    public void onPause() {
+        super.onPause();
+        MobclickAgent.onPause(this);
+    }
 }

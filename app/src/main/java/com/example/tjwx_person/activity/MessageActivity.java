@@ -27,6 +27,7 @@ import com.example.tjwx_person.tool.listView.XListView.IXListViewListener;
 import com.example.tjwx_person.utils.BaseToast;
 import com.example.tjwx_person.utils.UserData;
 import com.google.gson.Gson;
+import com.umeng.analytics.MobclickAgent;
 
 public class MessageActivity extends BaseActivity implements IXListViewListener {
 
@@ -268,5 +269,14 @@ public class MessageActivity extends BaseActivity implements IXListViewListener 
             });
 
         }
+    }
+
+    public void onResume() {
+        super.onResume();
+        MobclickAgent.onResume(this);
+    }
+    public void onPause() {
+        super.onPause();
+        MobclickAgent.onPause(this);
     }
 }

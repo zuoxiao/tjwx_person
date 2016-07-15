@@ -25,6 +25,7 @@ import com.example.tjwx_person.tool.DownLoadDialog;
 import com.example.tjwx_person.tool.IsWifi;
 import com.example.tjwx_person.utils.BaseToast;
 import com.example.tjwx_person.utils.UserData;
+import com.umeng.analytics.MobclickAgent;
 
 /**
  * Created by zuo on 2016/6/27.
@@ -274,6 +275,14 @@ public class SetUpActivity extends BaseActivity {
         });
 
 
+    }
+    public void onResume() {
+        super.onResume();
+        MobclickAgent.onResume(this);
+    }
+    public void onPause() {
+        super.onPause();
+        MobclickAgent.onPause(this);
     }
 
 }

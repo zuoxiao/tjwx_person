@@ -32,6 +32,7 @@ import com.example.tjwx_person.tool.IsWifi;
 import com.example.tjwx_person.utils.BaseToast;
 import com.example.tjwx_person.utils.UserData;
 import com.tencent.android.tpush.XGPushConfig;
+import com.umeng.analytics.MobclickAgent;
 
 public class RegistActivity extends BaseActivity {
 
@@ -379,5 +380,12 @@ public class RegistActivity extends BaseActivity {
 
     }
 
-
+    public void onResume() {
+        super.onResume();
+        MobclickAgent.onResume(this);
+    }
+    public void onPause() {
+        super.onPause();
+        MobclickAgent.onPause(this);
+    }
 }

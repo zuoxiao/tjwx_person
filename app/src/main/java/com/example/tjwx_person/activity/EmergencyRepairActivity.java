@@ -43,6 +43,7 @@ import com.example.tjwx_person.http.Utils;
 import com.example.tjwx_person.tool.voice.SoundMeter;
 import com.example.tjwx_person.utils.BaseToast;
 import com.example.tjwx_person.utils.UserData;
+import com.umeng.analytics.MobclickAgent;
 
 /**
  * 紧急订单
@@ -675,5 +676,12 @@ public class EmergencyRepairActivity extends BaseActivity {
 
     }
 //	}
-
+public void onResume() {
+    super.onResume();
+    MobclickAgent.onResume(this);
+}
+    public void onPause() {
+        super.onPause();
+        MobclickAgent.onPause(this);
+    }
 }

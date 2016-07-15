@@ -35,6 +35,10 @@
 
 -keepclassmembers class * implements java.io.Serializable { *; }
 
+#友盟统计
+-keepclassmembers class * {
+   public <init> (org.json.JSONObject);
+}
 
 #混淆时仍被意外混淆或抛弃的类
 
